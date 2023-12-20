@@ -6,8 +6,24 @@
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
+<header><h1>Analizador de texto</h1></header>
 <body>
   <script src="index.js" type="module"></script>
+
+    <ul class="metricas">
+    <li class="metricas" data-testid="word-count">contagem de palavras</li>
+    <li class="metricas" data-testid="character-count">contagem de caracteres</li>
+    <li class="metricas" data-testid="character-no-spaces-count">Caracteres sem espaços e sinais de pontuação</li>
+    <li class="metricas" data-testid="number-count">contagem de números</li>
+    <li class="metricas" data-testid="number-sum">soma total de números</li>
+    <li class="metricas" data-testid="word-length-average">comprimento das palavras</li>
+  </ul>
+
+ 
+  <textarea name="user-input"></textarea>
+  <button id="reset-button">Limpar</button>
+
+
+<footer><p>Jessica Ramos</p></footer>
 </body>
 </html>
