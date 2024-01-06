@@ -1,29 +1,47 @@
-const analyzer = {  
-  getWordCount: (text) => {
-    //TODO: esta función debe retornar el recuento de palabras que se encuentran en el parámetro `text` de tipo `string`.
-    const getWordCount = document.querySelector ("word-count");
-    const getWordCount = document.getElementsByName ("user-input");
-  },
+const analyzer = {
   getCharacterCount: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres que se encuentran en el parámetro `text` de tipo `string`.
-  const getCharacterCount = document.querySelector ("character-count");
+    return text.length;
   },
+
+  getWordCount: (text) => {
+    // Separa em palavras
+    const splitWords = text.split(/\s+/);
+    // Filtro para remover espaços e números
+    const wordsNoSpacesNoNumbers = splitWords.filter(word => word !== ''&& !/\d/.test(word));
+    // Retorna apenas a contagem de palavras
+    return wordsNoSpacesNoNumbers.length;
+  },
+
   getCharacterCountExcludingSpaces: (text) => {
-    //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
-  const getCharacterCountExcludingSpaces = document.querySelector ("character-no-spaces-count");
+    const cleanText = text.replace(/[^\w\s]/g, "").replace(/\s+/g, "");
+    return cleanText.length;
   },
-  getAverageWordLength: (text) => {    
-    //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
-  const getAverageWordLength = document.querySelector ("word-length-average");
-  },
+
   getNumberCount: (text) => {
-    //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
-  const getNumberCount = document.querySelector ("number-count");
+    const isThatANum = text.match(/\b\d+(\.\d+)?\b/g);
+    return isThatANum ? isThatANum.length : 0;
   },
+
   getNumberSum: (text) => {
-    //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
-    const getNumberSum = document.querySelector ("number-sum");
+    const numberSum = text.match(/\b\d+(\.\d+)?\b/g);
+    if (numberSum) {
+      let total = 0;
+      for (let i = 0; i < numberSum.length; i++) {
+        total += Number(numberSum[i]);
+      }
+      return total;
+    } else {
+      return 0;
+    }
+  },
+
+  getAverageWordLength: (text) => {
+    const words = text.trim().split(/\s+/);
+    const characterTotal = words.reduce((acc, word) => acc + word.length, 0);
+    const average = characterTotal / words.length || 0;
+    return parseFloat(average.toFixed(2));
   },
 };
 
 export default analyzer;
+

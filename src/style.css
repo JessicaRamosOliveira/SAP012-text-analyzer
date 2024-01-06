@@ -1,59 +1,51 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-header{
-    background: #0b3565;
-    color: white;
-    font-size: 20px;
-}
-
-.metricas ul {
-    margin-top: 3rem;
-        }
-
-.metricas li {
-    display: flex;
     text-align: center;
-    list-style: none;
-    font-size: medium;
-    border: 2px solid #0b3565;
-    border-radius: 20px;
-    margin: 3px;
-    width: 29%;
-    padding: 5px;
-    }
-
-
-textarea[name="user-input"]{
-            display: flex;
-        width: 70%;
-        height: 300px;
-        font-size: 1rem;
-        padding: 0.5rem;
-        border-radius: 12px;
-        box-sizing: border-box;
-        resize: none;
-        margin:0 auto;
-    }
-
-    .reset-button{
-        display: flex;
-        min-height: 100vh;
-    }
-
-    #reset-button{
-        color:black;
-        background-color: #f9fbfc;
-        border: 2px, solid, #0b3565;
-        border-radius: 20px;
-        padding: 10px 24px;
+}
+header{
+    color:#55412b;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F4EBDC;
     }
     
-    footer {
-        text-align: center;
-        color: rgb(0, 0, 0);
-        font-size: 19px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
+ul {
+    padding-left: 0;
+}
+.metricas {
+    list-style-type: none;
+    font-size: medium;
+    border: 2px solid #55412b;
+    border-radius: 20px;
+    margin: 3px auto;
+    padding: 0.2rem;
+    height: 25px; ;
+    width: 380px;
+    background-color: #F4EBDC;
+}
+
+textarea[name="user-input"]{
+    width: 500px;
+    height: 250px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+    margin:0 auto;
+    border: 2px solid #55412b;
+    background-color: #F4EBDC;
+}
+
+#reset-button{
+    color:#55412b;
+    border: 2px solid #55412b;
+    border-radius: 20px;
+    padding: 10px 24px;
+    margin: 8px auto;
+    background-color: #F4EBDC;
+}
+    
+footer {
+    color:#55412b;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
     
