@@ -18,19 +18,10 @@
 
 ## 1. Considerações gerais
 
-- Este projeto será resolvido de forma **individual**.
-- A estimativa de tempo para completar o projeto varia de 2 a 4 Sprints.
-- Concentre-se em aprender, não apenas em "completar" o projeto.
-- Sugerimos que você não tente saber tudo antes de começar a codificar.
-  Não se preocupe muito com o que você _ainda_ não entende.
-  Você aprenderá ao longo do processo.
+O projeto foi elaborado de forma individual, porém os momentos de "dúvidas rápidas" com as coaches técnicas, OHs, e auxílio das demais colegas foi imprescindível para finalizar o projeto.
 
 ## 2. Preâmbulo
-
-![Uma lupa sobre texto de livro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
-
-_Créditos: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
-_em [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
+![Gif que demonstra o analisador sendo utilizado.](src\assets\gifprojeto.gif)
 
 Um analisador de texto é uma aplicação para extrair informações úteis de um
 texto utilizando diversas técnicas, como o processamento de linguagem natural
