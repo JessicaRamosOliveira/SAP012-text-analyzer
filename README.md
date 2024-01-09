@@ -21,7 +21,8 @@
 O projeto foi elaborado de forma individual, porém os momentos de "dúvidas rápidas" com as coaches técnicas, OHs, e auxílio das demais colegas foi imprescindível para finalizar o projeto.
 
 ## 2. Preâmbulo
-![Gif que demonstra o analisador sendo utilizado.](src\assets\gifprojeto.gif)
+
+<img src="src\assets\gifprojeto.gif">
 
 Um analisador de texto é uma aplicação para extrair informações úteis de um
 texto utilizando diversas técnicas, como o processamento de linguagem natural
