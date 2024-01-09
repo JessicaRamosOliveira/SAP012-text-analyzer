@@ -28,7 +28,7 @@ texto utilizando diversas técnicas, como o processamento de linguagem natural
 (PLN),aprendizado de máquina (ML) e análise estatística. Essas aplicações podem
 fornecer uma variedade de métricas que oferecem informações básicas sobre
 o comprimento e a estrutura do texto, como contagem de palavras, contagem de
-caracteres, contagem de sentenças e contagem de parágrafos. Outras métricas
+caracteres, contagem de sentenças e contagem de parágrafos. Outras métricasgit
 incluem análise de sentimentos, que utiliza técnicas de PLN para determinar
 o tom geral positivo, negativo ou neutro do texto, e análise de legibilidade,
 que utiliza algoritmos para avaliar a complexidade e legibilidade do texto.
@@ -40,54 +40,49 @@ podem obter uma compreensão mais profunda dos textos.
 
 ## 3. Resumo do projeto
 
-Neste projeto, você criará uma aplicação web que permitirá que a usuária analise
+O projeto é uma aplicação web que permite que a usuária analise
 um texto no navegador, exibindo uma série de indicadores e métricas específicas
 sobre caracteres, letras, números, etc., que foram inseridos por ela como entrada.
-Você realizará isso usando HTML, CSS e JavaScript.
+O projeto foi realizado usando HTML, CSS e JavaScript.
 
 ## 4. Funcionalidades
 
 A lista de funcionalidades é a seguinte:
 
-1. A aplicação deve permitir que a usuária insira um texto escrevendo-o
+1. A aplicação permite que a usuária insira um texto escrevendo-o
     em uma caixa de texto.
 
-2. A aplicação deve calcular as seguintes métricas e atualizar o
+2. A aplicação calcula as seguintes métricas e atualiza o
     resultado em tempo real conforme a usuária escreve o texto:
 
-    - **Contagem de palavras**: a aplicação deve ser capaz de contar o número de
-    palavras no texto de entrada e mostrar essa contagem para a usuária.
-    - **Contagem de caracteres**: a aplicação deve ser capaz de contar o número de
+    - **Contagem de palavras**: a aplicação conta o número de
+    palavras no texto de entrada e mostra essa contagem para a usuária.
+    - **Contagem de caracteres**: a aplicação conta o número de
     caracteres no texto de entrada, incluindo espaços e sinais de
-    pontuação, e mostrar essa contagem para a usuária.
+    pontuação, e mostra essa contagem para a usuária.
     - **Contagem de caracteres excluindo espaços e sinais de pontuação**:
-    a aplicação deve ser capaz de contar o número de caracteres no texto de
-    entrada, excluindo espaços e sinais de pontuação, e mostrar essa contagem
+    a aplicação conta o número de caracteres no texto de
+    entrada, excluindo espaços e sinais de pontuação, e mostra essa contagem
     para a usuária.
-    - **Contagem de números**: a aplicação deve contar quantos números há no
-    texto de entrada e mostrar essa contagem para a usuária.
-    - **Soma total dos números**: a aplicação deve somar todos os números que
-    estão no texto de entrada e mostrar o resultado para a usuária.
-    - **Comprimento médio das palavras**: a aplicação deve calcular o
-    comprimento médio das palavras no texto de entrada e mostrar esse valor para a usuária.
+    - **Contagem de números**: a aplicação conta quantos números há no
+    texto de entrada e mostra essa contagem para a usuária.
+    - **Soma total dos números**: a aplicação soma todos os números que
+    estão no texto de entrada e mostra o resultado para a usuária.
+    - **Comprimento médio das palavras**: a aplicação deve calcula o
+    comprimento médio das palavras no texto de entrada e mostra esse valor para a usuária.
 
-3. A aplicação deve permitir limpar o conteúdo da caixa de texto ao clicar
+3. A aplicação permite limpar o conteúdo da caixa de texto ao clicar
     em um botão.
 
-![Demonstração do analisador de texto](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Demonstração do analisador de texto")
+![Demonstração do analisador de texto](src\assets\gifprojeto.gif "Demonstração do analisador de texto")
 
 ## 5. Boilerplate
 
-A lógica do projeto deve ser implementada completamente em JavaScript. Neste
-projeto, NÃO é permitido usar bibliotecas ou frameworks, apenas JavaScript
-puro, também conhecido como Vanilla JavaScript.
+A lógica do projeto foi implementada completamente em Vanilla JavaScript. 
 
-Para começar este projeto, você precisará fazer um _fork_ e _clonar_ este
-repositório que contém um _boilerplate_ com testes. Um _boilerplate_
-é a estrutura básica de um projeto que serve como um ponto de partida com
-arquivos e configuração inicial de dependências e testes.
+Para iniciar o projeto foi necessário fazer um _fork_ e um _clone_ do repositório da Laboratória que continha um _boilerplate_ com testes. 
 
-O _boilerplate_ que fornecemos contém a seguinte estrutura:
+O _boilerplate_ fornecido seguia a seguinte estrutura:
 
     ./
     ├── .babelrc
