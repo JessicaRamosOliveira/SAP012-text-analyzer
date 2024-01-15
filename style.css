@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+}
+header{
+    color:#55412b;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F4EBDC;
+    }
+    
+ul {
+    padding-left: 0;
+}
+.metricas {
+    list-style-type: none;
+    font-size: medium;
+    border: 2px solid #55412b;
+    border-radius: 20px;
+    margin: 3px auto;
+    padding: 0.2rem;
+    height: 25px; ;
+    width: 380px;
+    background-color: #F4EBDC;
+}
+
+textarea[name="user-input"]{
+    width: 500px;
+    height: 250px;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+    margin:0 auto;
+    border: 2px solid #55412b;
+    background-color: #F4EBDC;
+}
+
+#reset-button{
+    color:#55412b;
+    border: 2px solid #55412b;
+    border-radius: 20px;
+    padding: 10px 24px;
+    margin: 8px auto;
+    background-color: #F4EBDC;
+}
+    
+footer {
+    color:#55412b;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
